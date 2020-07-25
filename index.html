@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <input type="text" placeholder="Enter todo" id="todo-item">
+        <button onclick="add()" class="btn-success">Add Item</button>
+        <button onclick="deleteAll()" class="btn-success">Delete All</button>
+        <!-- <button onclick="Edit()" class="btn-success">Edit</button> -->
+        <div>
+            <ul id="List">
+
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+
+</html>
